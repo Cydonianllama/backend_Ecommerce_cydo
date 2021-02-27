@@ -23,7 +23,6 @@ app.use(methoOverride('X-HTTP-Method-Override'))
 //const router = require('./network/routes')
 //router(app) 
 
-
 // allow static routes 
 const staticFiles = require('./network/static')
 staticFiles(express,app)
